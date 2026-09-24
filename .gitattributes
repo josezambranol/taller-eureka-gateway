@@ -1,3 +1,5 @@
-# Indicar a GitHub Linguist que ignore scripts de automatizacion en el conteo de lenguaje
+# Indicar a GitHub Linguist que ignore scripts de automatizacion y herramientas en el conteo de lenguaje
 *.bat linguist-vendored=true
 *.ps1 linguist-vendored=true
+*.py linguist-vendored=true
+*.py linguist-documentation=true
